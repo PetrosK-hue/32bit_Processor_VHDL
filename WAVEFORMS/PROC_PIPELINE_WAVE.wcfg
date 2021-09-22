@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Documents/COURSES/orga/this_one/2016030038_pipeline/PROC_PIPELINE_testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="proc_pipeline_testbench" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="70" />
+   <wvobject fp_name="/proc_pipeline_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/imm_ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_ext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_ext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/ab_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ab_wren</obj_property>
+      <obj_property name="ObjectShortName">ab_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rt_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rt_wren</obj_property>
+      <obj_property name="ObjectShortName">rt_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rs_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_wren</obj_property>
+      <obj_property name="ObjectShortName">rs_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rd_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_wren</obj_property>
+      <obj_property name="ObjectShortName">rd_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/bafter_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bafter_wren</obj_property>
+      <obj_property name="ObjectShortName">bafter_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/wra_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wra_wren</obj_property>
+      <obj_property name="ObjectShortName">wra_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/imm_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_wren</obj_property>
+      <obj_property name="ObjectShortName">imm_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alu_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_wren</obj_property>
+      <obj_property name="ObjectShortName">alu_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/instr_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_wren</obj_property>
+      <obj_property name="ObjectShortName">instr_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/op_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">op_wren</obj_property>
+      <obj_property name="ObjectShortName">op_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/op2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">op2_wren</obj_property>
+      <obj_property name="ObjectShortName">op2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alubin_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alubin_wren</obj_property>
+      <obj_property name="ObjectShortName">alubin_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/dest_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dest_wren</obj_property>
+      <obj_property name="ObjectShortName">dest_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwrsel_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwrsel_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwrsel_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwrsel2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwrsel2_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwrsel2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwrsel3_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwrsel3_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwrsel3_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/wra2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wra2_wren</obj_property>
+      <obj_property name="ObjectShortName">wra2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/immext_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">immext_wren</obj_property>
+      <obj_property name="ObjectShortName">immext_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rs2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs2_wren</obj_property>
+      <obj_property name="ObjectShortName">rs2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rt2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rt2_wren</obj_property>
+      <obj_property name="ObjectShortName">rt2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwr1_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwr1_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwr1_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwr2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwr2_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwr2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwr3_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwr3_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwr3_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rfwr4_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwr4_wren</obj_property>
+      <obj_property name="ObjectShortName">rfwr4_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/aluafter_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aluafter_wren</obj_property>
+      <obj_property name="ObjectShortName">aluafter_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/memreg_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memreg_wren</obj_property>
+      <obj_property name="ObjectShortName">memreg_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop</obj_property>
+      <obj_property name="ObjectShortName">byteop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/mema_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mema_wren</obj_property>
+      <obj_property name="ObjectShortName">mema_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/mema2_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mema2_wren</obj_property>
+      <obj_property name="ObjectShortName">mema2_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[28]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[28]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[28]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[10]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[6]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[6]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[6]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[5]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[4]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[3]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[2]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/EX_DEC_PIPELINE/Toplevel_DECSTAGE/regFile/reg2mux[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[1]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/PIPELINE_RAM/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_CONTROL/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pc_ldenafter" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_ldenafter</obj_property>
+      <obj_property name="ObjectShortName">pc_ldenafter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/instr_ramtodec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_ramtodec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_ramtodec[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pctoram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pctoram[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pctoram[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/mem_wrenafter1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wrenafter1</obj_property>
+      <obj_property name="ObjectShortName">mem_wrenafter1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/mem_wrenafter2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wrenafter2</obj_property>
+      <obj_property name="ObjectShortName">mem_wrenafter2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rf_bb_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_bb_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_bb_sig[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/imm_res" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/memtorf_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memtorf_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memtorf_sig[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/memtorf_mod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memtorf_mod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memtorf_mod[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/memtorf_sig_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memtorf_sig_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memtorf_sig_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/rf_bb_sig_mod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_bb_sig_mod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_bb_sig_mod[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pc_choice" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_choice[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_choice[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp[10:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alu_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_mem[10:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mem[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alu_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/pcsel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pcsel</obj_property>
+      <obj_property name="ObjectShortName">pcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_pipeline_testbench/uut/PROC_Datapath/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+</wave_config>

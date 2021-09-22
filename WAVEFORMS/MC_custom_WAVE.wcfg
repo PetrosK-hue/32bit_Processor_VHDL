@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Documents/COURSES/orga/Lab_2021/PROC_MC_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="proc_mc_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/proc_mc_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/p_inst_dout2ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_inst_dout2ram[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p_inst_dout2ram[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_CONTROL_MC/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[16]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[10]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[7]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[7]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[7]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[6]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[6]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[6]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[4]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[3]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[2]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/uni_DATAPATH_MC/DATAPATH_EX_DEC_Module/Toplevel_DECSTAGE/regFile/reg2mux[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">reg2mux[1]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_RAM/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_data_we2ram" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_data_we2ram</obj_property>
+      <obj_property name="ObjectShortName">tpl_data_we2ram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_pc_sel</obj_property>
+      <obj_property name="ObjectShortName">tpl_pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_imm_ext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_imm_ext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tpl_imm_ext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_pc_lden</obj_property>
+      <obj_property name="ObjectShortName">tpl_pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">tpl_rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_rf_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_ab_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_ab_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_ab_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_alu_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_alu_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_alu_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_instr_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_instr_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_instr_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_memreg_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_memreg_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_memreg_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">tpl_rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_reset</obj_property>
+      <obj_property name="ObjectShortName">tpl_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">tpl_alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_byteop</obj_property>
+      <obj_property name="ObjectShortName">tpl_byteop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_mem_wren</obj_property>
+      <obj_property name="ObjectShortName">tpl_mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">tpl_opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_zero</obj_property>
+      <obj_property name="ObjectShortName">tpl_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_mc_test/uut/proc_DATAPATH_MC_CONTROL/tpl_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tpl_flag</obj_property>
+      <obj_property name="ObjectShortName">tpl_flag</obj_property>
+   </wvobject>
+</wave_config>
